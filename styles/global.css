@@ -1,0 +1,65 @@
+/* Global styling for this template */
+
+body {
+    font-family: 'Your Body Font', sans-serif; /* Replace with your actual body font */
+    padding-top: 54px;
+    color: #555; /* Replace with your actual color value */
+    background-color: rgba(173, 216, 230, 0.7); /* Light blue background with opacity */
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 200px; /* Replace with your actual sidebar base width */
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Your Heading Font', sans-serif; /* Replace with your actual heading font */
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #808080; /* Grayish clashing color */
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Your Heading Font', sans-serif; /* Replace with your actual heading font */
+    font-size: 1.35rem;
+    color: #696969; /* Another grayish clashing color */
+  }
+  
+  .list-social-icons a {
+    color: #777; /* Replace with your actual color value */
+  }
+  
+  .list-social-icons a:hover {
+    color: #3498db; /* Replace with your actual primary color value */
+  }
+  
+  .list-social-icons .fa-lg {
+    font-size: 1.75rem;
+  }
+  
+  .list-icons {
+    font-size: 3rem;
+  }
+  
+  .list-icons .list-inline-item i:hover {
+    color: #3498db; /* Replace with your actual primary color value */
+  }
+  
